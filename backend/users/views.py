@@ -6,3 +6,7 @@ from .serializers import UserSerializer
 class UserViewSet(ModelViewSet):
     serializer_class = UserSerializer
     queryset = User.objects.all()
+
+
+    #6666
+    #666
